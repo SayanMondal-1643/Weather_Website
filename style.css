@@ -66,6 +66,7 @@ body{
     width: 85%;
     font-size: 25px; /*Adjust*/
     padding-left: 15px;
+    padding-right: 5px;
     border-radius: 30px;
 }
 
