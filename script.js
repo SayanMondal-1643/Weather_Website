@@ -16,7 +16,7 @@ const temperatureBox = document.querySelector('.temperature')
 
 async function getWeather(city) {
     const api_key = '82e35c4101a04007997181842232312'
-    const url = `http://api.weatherapi.com/v1/forecast.json?key=${api_key}&q=${city}`
+    const url = `https://api.weatherapi.com/v1/forecast.json?key=${api_key}&q=${city}`
     const weatherData = await fetch(url).then((request)=>{
         return request.json()
     })
