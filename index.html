@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherNow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+
+        <div id="weather-header">
+            <input type="text" placeholder="Enter your location" id="input-box">
+            <i class="fa-solid fa-magnifying-glass" id="search-button"></i>
+        </div>
+        <div class="location-not-found">
+            <p>Sorry, location not found!</p>
+            <img src="404.png" alt="Img" id="location-not-found">
+        </div>
+        
+        <div id="weather-body">
+            <div class="location">
+                <p id="location"><i class="fa-solid fa-location-dot"></i></p>
+            </div>
+
+            <img src="404.png" alt="Weather Image" id="weather-image">
+
+            <div class="temperature">
+                <p id="temperature"></p>
+                <p id="feels-like"></p>
+            </div>
+
+            <div id="description"></div>
+
+            <div id="weather-details">
+                <div class="humidity">
+                    <i class="fa-solid fa-droplet"></i>
+                    <div>
+                        <div id="humidity"></div>
+                        <p>Humidity</p>
+                    </div>
+                    
+                </div>
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div>
+                        <div id="wind-speed"></div>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="forecast"></div>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/5d50bfa7ff.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>
