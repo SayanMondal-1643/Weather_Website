@@ -20,7 +20,7 @@ I'm thrilled to announce the launch of my latest project — a **dynamic weather
 
 ## 🛠️ Tech Stack
 - **Frontend:** HTML, CSS, JavaScript
-- **API:** Integrated with a third-party weather API (e.g., OpenWeatherMap)
+- **API:** Integrated with a third-party weather API
 
 ## 🔗 Live Preview
 [Check out the live version here](https://sayanmondal-1643.github.io/Weather_Website/)
