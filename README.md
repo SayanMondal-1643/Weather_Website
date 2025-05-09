@@ -23,4 +23,4 @@ I'm thrilled to announce the launch of my latest project — a **dynamic weather
 - **API:** Integrated with a third-party weather API (e.g., OpenWeatherMap)
 
 ## 🔗 Live Preview
-https://sayanmondal-1643.github.io/Weather_Website/
+[Check out the live version here](https://sayanmondal-1643.github.io/Weather_Website/)
